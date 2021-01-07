@@ -1,5 +1,5 @@
 # pin-system
-basic pin system for stuff
+basic pin system for stuff (will make secure later)
 
 # api structure
 #### endpoints:
