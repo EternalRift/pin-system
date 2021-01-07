@@ -3,10 +3,10 @@ basic pin system for stuff
 
 # api structure
 #### endpoints:
-####GET `api/pin`
+#### *GET* `api/pin`
 generate a pin (30 second timeout)
 
-####GET `api/pins`
+#### *GET* `api/pins`
 view currently generated pins
   - response:
     - body:
@@ -17,7 +17,7 @@ view currently generated pins
         "pins": []
       }
       ```
-####POST `api/pin{pin}`
+#### *POST* `api/pin{pin}`
 check pin against valid pins
   - request:
     - content:
